@@ -4758,7 +4758,7 @@ body {
 
 .touch-handler {
   position: fixed;
-  bottom: 10%;
+  bottom: 4.5%;
   left: 50%;
   transform: translateX(-50%);
   width: 10rem;
@@ -4929,7 +4929,7 @@ body {
   .game-inner {
     --cell-size: 48px;
     margin-top: 5px;
-    margin-bottom: 4rem;
+    margin-bottom: 5px;
   }
 }
 @media (max-width: 320px) {
