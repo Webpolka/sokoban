@@ -4758,11 +4758,11 @@ body {
 
 .touch-handler {
   position: fixed;
-  bottom: 4.5%;
+  bottom: 0.5%;
   left: 50%;
   transform: translateX(-50%);
-  width: 10rem;
-  height: 10rem;
+  width: 14rem;
+  height: 11rem;
   background-color: rgba(0, 0, 0, 0.25);
   border-radius: 50%;
   z-index: 5000;
@@ -4927,7 +4927,7 @@ body {
 }
 @media (max-width: 576px) {
   .game-inner {
-    --cell-size: 48px;
+    --cell-size: 40px;
     margin-top: 5px;
     margin-bottom: 5px;
   }
