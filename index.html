@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <style>html { opacity: 0; }</style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Главная</title>  
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./css/main.min.css">
+  
+</head>
+ 
+ 
+
+<body>
+  <div class="service-overlay"></div>
+
+  <div class="wrapper">
+    <header class="header">  
+</header>
+    <main class="page">
+      <div class="container">
+    <div class="game-wrapper">      
+        <div id="game">
+            <div class="game-buttons">
+                <div class="left">
+                    <button class="pause" id="pause"></button>
+                    <button class="restart" id="restart"></button>
+                </div>
+                <div class="center">
+                    <span class="timer" id="timer"></span>
+                </div>
+                <div class="right">
+                    <button class="music" id="music"></button>
+                    <button class="sounds" id="sounds"></button>
+                </div>
+            </div>
+            <div class="game-inner"></div>           
+        </div>  
+        
+        <div class="touch-handler">
+            <div class="joystick"></div>
+        </div>
+    </div>    
+</div>
+<div class="game-lock"></div>        
+    </main>
+    <footer class="footer">   
+</footer>
+<audio src="./static/push.mp3" id="pushSound"></audio>
+<audio src="./static/steps-22.mp3" id="stepSound"></audio>
+<audio src="./static/complete.mp3" id="completeSound"></audio>
+<audio src="./static/lock.mp3" id="lock-sound"></audio>
+
+<audio src="./static/music-1.mp3" id="music-1"></audio>
+<audio src="./static/music-2.mp3" id="music-2"></audio>
+<audio src="./static/music-3.mp3" id="music-3"></audio>
+  </div>
+  <script src="./js/main.min.js"></script>
+
+</body>
+
+</html>
