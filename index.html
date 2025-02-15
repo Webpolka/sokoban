@@ -9,9 +9,7 @@
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="./css/main.min.css">
   
-</head>
- 
- 
+</head> 
 
 <body>
   <div class="service-overlay"></div>
@@ -21,41 +19,60 @@
 </header>
     <main class="page">
       <div class="container">
-    <div class="game-wrapper">      
+    <div class="game-wrapper">
         <div id="game">
             <div class="game-buttons">
-                <div class="left">
-                    <button class="pause" id="pause"></button>
-                    <button class="restart" id="restart"></button>
-                </div>
-                <div class="center">
-                    <span class="timer" id="timer"></span>
-                </div>
-                <div class="right">
-                    <button class="music" id="music"></button>
-                    <button class="sounds" id="sounds"></button>
-                </div>
+                <button class="pause" id="pause"></button>
+                <button class="restart" id="restart"></button>
+                <button class="up" id="level-up"></button>
+                <button class="down" id="level-down"></button>
+                <button class="music" id="music"></button>
+                <button class="sounds" id="sounds"></button>
             </div>
-            <div class="game-inner"></div>           
-        </div>  
-        
+            <div class="game-timer">
+                <span class="timer" id="timer"></span>
+            </div>
+
+            <div class="game-inner"></div>
+        </div>
+
         <div class="touch-handler">
             <div class="joystick"></div>
         </div>
-    </div>    
+    </div>
 </div>
-<div class="game-lock"></div>        
+<div class="game-lock"></div>
     </main>
     <footer class="footer">   
 </footer>
-<audio src="./static/push.mp3" id="pushSound"></audio>
-<audio src="./static/steps-22.mp3" id="stepSound"></audio>
-<audio src="./static/complete.mp3" id="completeSound"></audio>
-<audio src="./static/lock.mp3" id="lock-sound"></audio>
 
-<audio src="./static/music-1.mp3" id="music-1"></audio>
-<audio src="./static/music-2.mp3" id="music-2"></audio>
-<audio src="./static/music-3.mp3" id="music-3"></audio>
+<audio id="pushSound" preload="auto">
+    <source src="./static/push.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="stepSound" preload="auto">
+    <source src="./static/steps-22.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="completeSound" preload="auto">
+    <source src="./static/complete.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="lock-sound" preload="auto">
+    <source src="./static/lock.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="music-1">
+   <source src="./static/music-1.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="music-2">
+    <source src="./static/music-2.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="music-3">
+    <source src="./static/music-3.mp3" type="audio/mpeg">
+</audio>
   </div>
   <script src="./js/main.min.js"></script>
 
