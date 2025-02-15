@@ -4927,7 +4927,7 @@ body {
 }
 @media (max-width: 576px) {
   .game-inner {
-    --cell-size: 40px;
+    --cell-size: 38px;
     margin-top: 5px;
     margin-bottom: 5px;
   }
